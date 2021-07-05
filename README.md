@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) Framework for reactJS.
+This is a [Next.js](https://nextjs.org/) Framework for reactJS with [Material UI](https://material-ui.com/)
 
 ## To get Started
 
