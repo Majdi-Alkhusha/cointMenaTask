@@ -17,9 +17,9 @@ const CardListRepo = (props) => {
                 <span><StarBorder /> {data.totalStars.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</span>
                 <span><DeviceHub /> {data.forks}</span>
                 <span className={stylesHome.avatarName}>{"Built by: " }{
-                    data.builtBy.map((resRow) => {
+                    data.builtBy.map((resRow, index) => {
                         return (
-                            <Avatar alt={resRow.username} src={resRow.avatar} />
+                            <Avatar alt={resRow.username} src={resRow.avatar} key={index} />
                         )
                     })
                 }</span>

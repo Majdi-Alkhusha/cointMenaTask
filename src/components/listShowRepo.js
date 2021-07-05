@@ -18,13 +18,15 @@ const ListShowRepo = (props) => {
     const { data } = props;
     return (
         <List component="nav" className={classes.root}>
-            {data.map((row) => {
-                return (<>
-                    <ListItem button>
-                        <CardListRepo data={row} />
-                    </ListItem>
-                    <Divider />
-                </>)
+            {data.map((row, index) => {
+                return (
+                    <div key={index}>
+                        <ListItem button>
+                            <CardListRepo data={row} />
+                        </ListItem>
+                        <Divider />
+                    </div>
+                )
             })}
         </List>
     );

@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head key={0}>
         <title>coinMena</title>
-        <link rel="shortcut icon" href="./logoIco.svg" />
+       {/*  <link rel="shortcut icon" href="./logoIco.svg" /> */}
       </Head>
       <ThemeProvider theme={theme}>
         <CssBaseline />
