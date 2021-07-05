@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org/) Framework for reactJS.
 
-## To getting Started
+## To get Started
 
 Run the development server:
 
@@ -40,3 +40,5 @@ and change package.json to
   }
 }
 ```
+
+Regards
